@@ -34,11 +34,29 @@ footer{
     left: 140px;
 }
 .subtitle{
-    margin-top: 50px;
+    margin: 70px 0;
     font-family: 'Verdana','Times New Roman';
     border-bottom: double 5px #000;
     display: inline-block;
     width: 200px;
+}
+.nav{
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #fff;
+    box-shadow: 0px 10px 10px #9d9592;
+}
+.nav li{
+    display: inline;
+    padding-right: 80px;
+    list-style-type: none;
+}
+.menu{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Silom','Times New Roman';
+    font-size: 20px;
 }
 .section{
     text-align: center;
@@ -48,7 +66,7 @@ footer{
     margin: 0 200px;
 }
 .margin{
-    height: 600px;
+    height: 500px;
 }
 .language{
     width: 50%;
@@ -67,6 +85,12 @@ footer{
 .skill_image{
     margin-bottom: 10px;
 }
+.mysql{
+    margin-bottom: 50px;
+}
+.sqlite{
+    margin-bottom: 40px;
+}
 .skill_info{
     display: inline;
     max-width: 30px;
@@ -84,7 +108,7 @@ footer{
     display: inline-block;
     background-color: #fff;
     width: 48%;
-    height: 1100px;
+    height: 1200px;
 }
 .work_image{
     width: 100%;

@@ -21,11 +21,29 @@
                 <img src="static/image/header.jpeg" id="header_background">
                 <div id="title">Songju Pae's portfolio</div>
             </div>
-        </header>
-        <div class="wrap">
             <div class="margin"></div>
+        </header>
+        <div class="nav">
+            
+                <ul>
+                    <li>
+                        <a href="#profile" class="menu">Profile</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="menu">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#works" class="menu">Works</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="menu">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="wrap">
             <div class="section">
-                <h1 class="subtitle">Profile</h1>
+                <h1 class="subtitle" id="profile">Profile</h1>
                 <div class="sentence">
                     <p>
                         初めまして。<br>
@@ -39,7 +57,7 @@
             </div>
 
             <div class="section">
-                <h1 class="subtitle">Skills</h1>
+                <h1 class="subtitle" id="skills">Skills</h1>
                 <div></div>
                 <div class="skills">
                     <div class="skill_item">
@@ -66,7 +84,7 @@
                     </div>
                     <div class="skill_item">
                         <div class="skill_image">
-                            <img src="static/image/Java.png" class="language">
+                            <img src="static/image/java.png" class="language">
                         </div>
                         <div class="skill_name">
                             <p class="skill_info">Java</p>
@@ -77,7 +95,7 @@
                     </div>
                     <div class="skill_item">
                         <div class="skill_image">
-                            <img src="static/image/Python.png" class="language">
+                            <img src="static/image/python.png" class="language">
                         </div>
                         <div class="skill_name">
                             <p class="skill_info">Python</p>
@@ -141,12 +159,34 @@
                             <p class="skill_info">2019.9〜</p>
                         </div>
                     </div>
+                    <div class="skill_item">
+                        <div class="skill_image mysql">
+                            <img src="static/image/mysql.png" class="language">
+                        </div>
+                        <div class="skill_name">
+                            <p class="skill_info">MySQL</p>
+                        </div>
+                        <div class="skill_experience">
+                            <p class="skill_info">2020.2〜</p>
+                        </div>
+                    </div>
+                    <div class="skill_item">
+                        <div class="skill_image sqlite">
+                            <img src="static/image/sqlite.png" class="language">
+                        </div>
+                        <div class="skill_name">
+                            <p class="skill_info">SQLite</p>
+                        </div>
+                        <div class="skill_experience">
+                            <p class="skill_info">2019.9〜</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
 
             <div class="section">
-                <h1 class="subtitle">Works</h1>
+                <h1 class="subtitle" id="works">Works</h1>
                 <div class="works">
                     <div class="work_item">
                         <img src="static/image/toyoman_shift.jpeg" class="work_image">
@@ -160,7 +200,7 @@
                                 豊萬ではシフト提出を紙媒体で行っていましたが、紙だと不便なときがあるという従業員の声を聞いて開発に至りました。
                             </p>
                             <p>
-                                現在は実際に導入・活用されており、従業員からのフィードバックをもとにUIの向上に努めています。
+                                実際に活用されておりましたが、使い方が難しいという意見をいただいたので現在は根本的にUIを見直しています。
                             </p>
                             <h3 class="work_subtitle">Tool</h3>
                             <p>HTML / CSS / JavaScript(JQuery) / PHP / MySQL</p>
@@ -217,7 +257,12 @@
                             <p>Selenium / matplotlib / MaCab</p>
                             <h3 class="work_subtitle">Use</h3>
                             <p>
-                                ※ページ内でのキーワードの変更はまだ実装されていません
+                                <div class="work_url">
+                                    <a href="http://www1.sken.biz/~tsuchiya203/songju/note/note_recommend.pdf">http://www1.sken.biz/~tsuchiya203/songju/note/note_recommend.pdf</a>
+                                </div>
+                                <p>
+                                    ※現在は諸事情で実際のスクレイピング結果をpdfで公開しています。
+                                </p>
                             </p>
                         </div>
                     </div>
@@ -226,7 +271,7 @@
 
 
             <div class="section">
-                <h1 class="subtitle">Contact</h1>
+                <h1 class="subtitle" id="contact">Contact</h1>
                 <div class="sentence">
                     <p class="contact_sentence">
                         何かあればお気軽にご連絡ください
