@@ -14,6 +14,9 @@ footer{
 }
 .wrap{
     margin: 0 auto 0 auto;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
     max-width: 960px;
 }
 #header{
@@ -31,7 +34,11 @@ footer{
     font-family: 'Papyrus';
     color: #fff;
     top: 55px;
-    left: 140px;
+    width: 100%;
+    text-align: center;
+}
+.header_margin{
+    height: 500px;
 }
 .subtitle{
     margin: 70px 0;
@@ -47,9 +54,12 @@ footer{
     background-color: #fff;
     box-shadow: 0px 10px 10px #9d9592;
 }
+.nav ul{
+    padding: 0;
+}
 .nav li{
     display: inline;
-    padding-right: 80px;
+    margin: 0 40px;
     list-style-type: none;
 }
 .menu{
@@ -64,9 +74,6 @@ footer{
 .sentence{
     text-align: left;
     margin: 0 200px;
-}
-.margin{
-    height: 500px;
 }
 .language{
     width: 50%;
@@ -83,13 +90,8 @@ footer{
     width: 25%;
 }
 .skill_image{
+    min-height: 124px;
     margin-bottom: 10px;
-}
-.mysql{
-    margin-bottom: 50px;
-}
-.sqlite{
-    margin-bottom: 40px;
 }
 .skill_info{
     display: inline;
@@ -100,6 +102,7 @@ footer{
 .works{
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
 }
 .work_item{
     text-align: center;
@@ -146,4 +149,73 @@ footer{
 }
 .icon{
     font-size: 100px;
+}
+
+
+@media(max-width:767px){
+    #header_background{
+        height: 200px;
+    }
+    #title{
+        font-size: 30px;
+        top: 40px;
+    }
+    .header_margin{
+        height: 200px;
+    }
+    .nav{
+        padding: 5px 0;
+    }
+    .nav li{
+        margin: 0 10px;
+    }
+    .menu{
+        font-size: 15px;
+    }
+    .subtitle{
+        margin: 30px 0;
+    }
+    .sentence{
+        margin: 0 10px;
+    }
+    .sqlite{
+        margin-bottom: 23px;
+    }
+    .skill_image{
+        min-height: 44px;
+    }
+    .skill_name{
+        font-size: 13px;
+    }
+    .skill_experience{
+        font-size: 10px;
+    }
+    .works{
+        margin: 0 10px;
+    }
+    .work_item{
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: 10px 0;
+    }
+    .work_image{
+        width: 100%;
+        height: 20%;
+    }
+    .icon{
+        margin: 10px 0;
+    }
+}
+
+@media(max-width:415px){
+    .skill_image{
+        min-height: 56px;
+    }
+}
+
+@media(max-width:376px){
+    .skill_image{
+        min-height: 51px;
+    }
 }

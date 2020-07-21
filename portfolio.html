@@ -2,29 +2,21 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>Songju Pae's portfolio</title>
         <link rel="stylesheet" type="text/css" href="static/portfolio.css">
         <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
         <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-
-        <script>
-            $(function(){
-                $('#test').on('click',function(){
-                    $('#test_').html('テスト')
-                });
-            });
-        </script>
     </head>
     <body>
         <header>
-            <div id="header">
-                <img src="static/image/header.jpeg" id="header_background">
+            <img src="static/image/header.jpeg" id="header_background">
+            <div class="header_title">
                 <div id="title">Songju Pae's portfolio</div>
             </div>
-            <div class="margin"></div>
+            <div class="header_margin"></div>
         </header>
         <div class="nav">
-            
                 <ul>
                     <li>
                         <a href="#profile" class="menu">Profile</a>
@@ -160,7 +152,7 @@
                         </div>
                     </div>
                     <div class="skill_item">
-                        <div class="skill_image mysql">
+                        <div class="skill_image">
                             <img src="static/image/mysql.png" class="language">
                         </div>
                         <div class="skill_name">
@@ -171,7 +163,7 @@
                         </div>
                     </div>
                     <div class="skill_item">
-                        <div class="skill_image sqlite">
+                        <div class="skill_image">
                             <img src="static/image/sqlite.png" class="language">
                         </div>
                         <div class="skill_name">
