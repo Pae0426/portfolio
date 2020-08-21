@@ -106,7 +106,7 @@ footer{
 }
 .work_item{
     text-align: center;
-    margin: 0 5px;
+    margin: 5px 5px;
     border: solid 3px rgb(161, 161, 161);
     display: inline-block;
     background-color: #fff;
