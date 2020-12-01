@@ -17,7 +17,7 @@ footer{
     min-height: 100vh;
     overflow: hidden;
     position: relative;
-    max-width: 960px;
+    max-width: 1100px;
 }
 #header{
     position: relative;
@@ -92,6 +92,9 @@ footer{
 .skill_image{
     min-height: 124px;
     margin-bottom: 10px;
+}
+#sqlite_image {
+    margin-top: 20px;
 }
 .skill_info{
     display: inline;

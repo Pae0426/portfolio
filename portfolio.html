@@ -303,7 +303,7 @@
                         </div>
                     </div>
                     <div class="skill_item">
-                        <div class="skill_image">
+                        <div class="skill_image" id="sqlite_image">
                             <img src="static/image/sqlite.png" class="language">
                         </div>
                         <div class="skill_name">
@@ -357,7 +357,7 @@
                             </p>
                             <h3 class="work_subtitle">Skills</h3>
                             <p>HTML / CSS / JavaScript(JQuery) / Ruby on Rails / MySQL</p>
-                            <p>VPC / EC2 / Route53</p>
+                            <p>Amazon VPC / EC2 / Route53</p>
                             <h3 class="work_subtitle">Use</h3>
                             <div class="work_url">
                                 <a href="http://www.shift-toyoman2.work" target="_blank">ログインページはこちら</a>
@@ -400,7 +400,6 @@
                                 以下は評価の工夫の一例です。
                             </p>
                             <p>
-                                ・記事内に同じ単語が膨大に出現して評価が偏ってしまうので常用対数を用いて不自然な評価を防ぐ<br>
                                 ・長文の記事は極端に高い評価を得やすいので、単語評価の際に記事内のそう単語数との比を取る<br>
                                 ・「新着」カテゴリーの記事は比較的いいね数が少ないので、いいね評価を高く設定する<br>
                                 ・「人」や「月」といったどの記事にも普遍的に使用されている単語は評価の対象から外す
@@ -414,7 +413,7 @@
                                     <a href="http://www1.sken.biz/~tsuchiya203/songju/note/recommendations_of_note.pdf" target="_blank">抽出・解析結果はこちら</a>
                                 </div>
                                 <p>
-                                    ※スクレイピング結果をpdfで公開しています。
+                                    ※実際のスクレイピング結果をpdfで公開しています。
                                 </p>
                             </p>
                         </div>
@@ -443,6 +442,30 @@
                                 ※リアカメラを使用するので、スマホでご利用ください。<br>
                                 ※ページが表示されるまで少し時間がかかる場合があります。
                             </p>
+                        </div>
+                    </div>
+
+                    <div class="work_item">
+                        <img src="static/image/vv2.jpeg" class="work_image">
+                        <h2 class="work_title">Voice Kitを用いた模擬面接による、<br>適正スピーチ速度判定システム</h2>
+                        <div class="work_description">
+                            <h3 class="work_subtitle">Description</h3>
+                            <p>
+                                現在授業で友人と二人で開発している面接練習システムです。<br>
+                                私は主にプログラムの実装を担当しており、友人はVoice Kitやブレッドボードの配線を担当しています。<br>
+                                基本的に二人で話しながら試行錯誤しており、機能の提案やライブラリの解釈、困難なバグの解析などは協働で進めています。
+
+                            </p>
+                            <p>
+                                画像手前の白いボタンを押すと音声が流れ、自己PR・志望動機・ガクチカの中からランダムでユーザーに問いかけます。<br>
+                                ユーザーが答えている間は画像中央のLEDライトで適切な速度で話せているかをリアルタイムで判定します。話す速度が早すぎる場合は赤色、適切な場合は緑色、遅すぎる場合は青色のLEDライトがそれぞれ光ります。
+
+                            </p>
+                            <h3 class="work_subtitle">Skills</h3>
+                            <p>Python / Google Cloud Speech-to-Text API</p>
+                            <p>Voice Kit v2 / Raspberry Pi Zero</p>
+                            <h3 class="work_subtitle">Use</h3>
+                            <p>現在開発中なので、完成後は動画でシステムを紹介する予定です</p>
                         </div>
                     </div>
                 </div>
