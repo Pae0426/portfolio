@@ -222,6 +222,9 @@ footer{
     .skill_image{
         min-height: 56px;
     }
+    #sqlite_image {
+        margin-top: 0;
+    }
 }
 
 @media(max-width:376px){
